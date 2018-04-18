@@ -51,7 +51,7 @@ public class Student extends Entity {
 
     @Override
     public String toString() {
-        return "Student : id = " + this.getId() + ", name = " + name + ", department = " + department + ", birth year = "
+        return "Student: id = " + this.getId() + ", name = " + name + ", department = " + department + ", birth year = "
                 + birthYear + ", teacher id = " + teacherId;
     }
 }
